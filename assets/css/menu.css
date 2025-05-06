@@ -4,7 +4,16 @@
     left: 0;
     right: 0;
     width: 100%;
+    z-index: 1;
     border-bottom: 0.1rem solid var(--light-gray-color);
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .menu h1 {
@@ -16,20 +25,12 @@
     color: inherit;
 }
 
-.menu-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.menu ul{
+.menu ul {
     list-style: none;
     display: flex;
 }
 
-.menu ul li a{
+.menu ul li a {
     display: block;
     padding: 2rem;
     font-size: 1.8rem;
